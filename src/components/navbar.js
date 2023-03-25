@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <nav className="navbar bg-body-tertiary">
             <div className="container-fluid">
-                <Link to="/" className="navbar-brand">Todo app</Link>
+                <Link to="/" className="navbar-brand">my-Todo-App</Link>
             </div>
         </nav>
     )

@@ -20,8 +20,7 @@ export default function Task () {
           <tr>
             <th>Name</th>
             <th>Description</th>
-            <th>Priority</th>
-            <th>Status</th>
+       
             
           </tr>
         </thead>

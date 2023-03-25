@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1f2020;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #151616;
 }
 
 @keyframes App-logo-spin {
@@ -38,11 +38,11 @@
 }
 
 body {
-  background-image: url(/src/images/hd-wallpaper-gea41976b6_640.jpg);
+  background-image: url(/src/images/brett-jordan--AWU0f2yH_k-unsplash.jpg);
   opacity: 100%;
   background-repeat: repeat-y;
   background-position: center;
-  background-color: darkslategrey;
+  background-color: rgb(17, 19, 19);
 }
 
 .card {
@@ -63,5 +63,5 @@ body {
   margin: auto;
   width: 33%;
   margin: 0 auto;
-  background-color: beige;
+  background-color: rgb(235, 235, 215);
 }

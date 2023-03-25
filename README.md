@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# My Todo App
+Description
+This is a web application built using React that allows users to create an account, sign in, add tasks, view all tasks, update a task, and delete tasks.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+To get started with the application, you will need to have Node.js installed on your computer. You can download and install Node.js from the official website.
 
-## Available Scripts
+Once you have Node.js installed, you can clone the repository to your local machine and install the required dependencies by running the following commands:
 
-In the project directory, you can run:
+        git clone git@github.com:KabiruH/Task-Tray-Frontend.git
 
-### `npm start`
+        npm install
+### Starting the Application
+To start the application, run the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+        npm start
+This will start the development server and open the application in your default web browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+To use the application, you will need to create an account and sign in. Once you are signed in, you can add tasks, view all tasks, update a task, and delete tasks.
 
-### `npm test`
+### Creating an Account
+To create an account, click on the "Create Account" link on the sign-in page. You will be asked to enter your email address and choose a password.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Signing In
+To sign in, enter your email address and password on the sign-in page.
 
-### `npm run build`
+### Adding a Task
+To add a task, click on the "Add Task" button on the dashboard page. You will be asked to enter a task name, description, priority level, and status.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Updating a Task
+To update a task, click on the "Update" button next to the task you want to update in the table of all tasks. You will be able to edit the task name, description, priority level, and status. Deleting a Task
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To delete a task, click on the "Delete" button next to the task you want to delete in the table of all tasks. You will be asked to confirm that you want to delete the task before it is permanently removed from the system. Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+Jessica Gichuru

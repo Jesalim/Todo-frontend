@@ -6,7 +6,7 @@ export default function SignUp() {
     return (
         <div class="card">
             <div class="card-body">
-                <h1>Sign Up here</h1>
+                <h1>Sign Up</h1>
                 <form>
                     <div class="row mb-3">
                         <div class="col">
@@ -15,11 +15,11 @@ export default function SignUp() {
                        
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputEmail" class="form-label">Email address</label>
+                        <label for="exampleInputEmail" class="form-label"></label>
                         <input type="email" placeholder="E-mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <label for="exampleInputPassword1" class="form-label"></label>
                         <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1" />
                     </div>
                     <div class="form-check mb-3">
@@ -28,7 +28,7 @@ export default function SignUp() {
                     
                 </form>
                 <label class="form-check-label">Already have an account?</label> <br/>
-                <Link to="/signIn">Sign in here</Link>
+                <Link to="/signIn">Sign in</Link>
             </div>
         </div>
 
