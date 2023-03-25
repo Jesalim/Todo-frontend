@@ -1,12 +1,15 @@
-
-import "./App.css";
-import Todo from "./components/Todo";
+import React from 'react';
+import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import Navbar from '../navbar';
+import TaskList from '../taskList';
 
 function App() {
   return (
-    <div className="container">
-      <Todo />
-    </div>
+    <BrowserRouter className="App">
+      <Navbar />
+      <TaskList />
+    </BrowserRouter>
   );
 }
 
