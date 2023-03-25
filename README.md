@@ -7,7 +7,7 @@ To get started with the application, you will need to have Node.js installed on 
 
 Once you have Node.js installed, you can clone the repository to your local machine and install the required dependencies by running the following commands:
 
-        git clone git@github.com:KabiruH/Task-Tray-Frontend.git
+        git clone git@github.com:Jesalim/todo-frontend.git
 
         npm install
 ### Starting the Application
@@ -26,10 +26,10 @@ To create an account, click on the "Create Account" link on the sign-in page. Yo
 To sign in, enter your email address and password on the sign-in page.
 
 ### Adding a Task
-To add a task, click on the "Add Task" button on the dashboard page. You will be asked to enter a task name, description, priority level, and status.
+To add a task, click on the "Add Task" button on the dashboard page. You will be asked to enter a task name and description.
 
 ### Updating a Task
-To update a task, click on the "Update" button next to the task you want to update in the table of all tasks. You will be able to edit the task name, description, priority level, and status. Deleting a Task
+To update a task, click on the "Update" button next to the task you want to update in the table of all tasks. You will be able to edit the task name and description. Deleting a Task
 
 To delete a task, click on the "Delete" button next to the task you want to delete in the table of all tasks. You will be asked to confirm that you want to delete the task before it is permanently removed from the system. Contributing
 
@@ -37,3 +37,6 @@ To delete a task, click on the "Delete" button next to the task you want to dele
 
 ## Author
 Jessica Gichuru
+
+## github profile
+https://github.com/Jesalim
