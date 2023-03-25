@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import TodoListItem from "./TodoListItem";
-import "./TodoList.css";
+// import "./TodoList.css";
+import SignIn from "./signIn";
+import SignUp from "./signUp";
+import TodoForm from "./TodoForm";
 
 const TodoList = ({ todos, completeTodo, removeTodo, updateTodo }) => {
   const [edit, setEdit] = useState({
@@ -63,6 +66,19 @@ const TodoList = ({ todos, completeTodo, removeTodo, updateTodo }) => {
                 />
               </div>
             ))}
+
+
+<div>
+          
+          <Routes>
+              <Route path="/" element= {<SignUp/>}></Route>
+              <Route path="/signIn" element= {<SignIn/>}></Route>
+              <Route path="/TodoListItem" element= {<TodoListItem/>}></Route>
+               <Route path="/TodoForm" element= {<TodoForm/>}></Route>
+              {/* <Route path="/update" element= {<UpdateTodos/>}></Route> */}
+          </Routes>
+          </div>
+
         </div>
       </div>
     </>
